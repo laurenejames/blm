@@ -96,3 +96,5 @@ or get a window with the report using
 library(covr)
 shine(package_coverage())
 ```
+
+Making an edit to the package file to show intention to undertake the exam, computer issues and overlapping lectures have not allowed me to get as far as I would like with the project yet. 
