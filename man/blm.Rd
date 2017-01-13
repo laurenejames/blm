@@ -4,10 +4,14 @@
 \alias{blm}
 \title{Bayesian linear model.}
 \usage{
-blm(model, ...)
+blm(model, prior, beta, ...)
 }
 \arguments{
 \item{model}{A formula describing the model.}
+
+\item{prior}{The prior function for the distribution}
+
+\item{beta}{A number}
 
 \item{...}{Additional data, for example a data frame. Feel free to add other options.}
 }
