@@ -9,7 +9,7 @@ test_that("Correct model fitting", {
   testblm = blm(lauren, make_prior(lauren,alpha, mu = c(0,0)), beta, d2)
   testfit = fitted(testblm)
   expect_true(class(testfit) == "data.frame")
-  expect_error(fitted(testblm)), NA)
+  expect_error(fitted(testblm), NA)
 })
 
 

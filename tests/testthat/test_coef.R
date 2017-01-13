@@ -10,5 +10,5 @@ test_that("Coefficients can be calculated", {
   testcoefs = coef(testblm)
   expect_true(all(dim(testcoefs$mean)== c(3,1)))
   expect_true(all(dim(testcoefs$Sigma) == 3))
-  expect_error(coef(testblm)), NA)
+  expect_error(coef(testblm), NA)
 })

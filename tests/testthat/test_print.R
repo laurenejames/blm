@@ -8,5 +8,5 @@ test_that("Print is of correct size", {
   lauren = y ~ x + z
   testblm = blm(lauren, make_prior(lauren,alpha, mu = c(0,0)), beta, d2)
   expect_true(all(length(capture.output(print(testblm))) == 16))
-  expect_error(print(testblm)), NA)
+  expect_error(print(testblm), NA)
 })

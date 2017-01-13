@@ -11,5 +11,5 @@ test_that("Intervals are caluclated correctly", {
   expect_true(all(dim(testconfint) == c(3,3)))
   expect_error(confint(testblm, c("Intercept", "x", "y"), -level))
   expect_error(confint(testblm, c("Intercept", "x", "y"), level>1))
-  expect_error(confint(testblm)), NA)
+  expect_error(confint(testblm), NA)
 })

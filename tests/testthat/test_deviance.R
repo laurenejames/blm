@@ -10,5 +10,5 @@ test_that("Correct deviance calculated", {
   testdev = deviance(testblm)
   expect_error(testdev$dev<0)
   expect_true(class(testdev) == "numeric")
-  expect_error(deviance(testblm)), NA)
+  expect_error(deviance(testblm), NA)
 })
