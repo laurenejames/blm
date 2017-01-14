@@ -110,3 +110,4 @@ library(covr)
 shine(package_coverage())
 ```
 
+Making a new pull request as the other didn't seem to work
