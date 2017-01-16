@@ -74,7 +74,7 @@ Returns the deviance of the blm object when fitting a model and predicting the r
 Returns the fitted response variables from the blm 
 
 * `plot()` 
-Plots the residuals vs. the fitted response variable for the blm object.
+Plots 4 similar graphs to the `lm` function, in a 2x2 grid. Residuals vs fitted, a Q-Q plot, a Scale-Location plot and a Residual vs. Leverage plot.
 
 * `predict()`
 Predicts response variables using a new data set from the fitted blm object. If there is no new data inputed into the function, it predicts based on the fitted response variable.

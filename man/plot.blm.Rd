@@ -15,6 +15,6 @@
 plot
 }
 \description{
-Plots the Bayesian linear model, the residuals vs the fitted values, similar to in a simple linear model
+Plots the Bayesian linear model, similar to in a simple linear model
 }
 
