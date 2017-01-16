@@ -13,5 +13,5 @@
 plot.blm = function(x, ...){
   frame = data.frame(Fitted = fitted(x)$"New Prediction", Residuals = residuals(x))
   newframe = frame[order(frame$Fitted),]
-  plot(newframe$Residuals, newframe$Fitted, main = "Residuals vs. Fitted", xlab = "Fitted", ylab = "Residuals", type = "o", col = "blue")
+  plot(newframe$Fitted, newframe$Residuals, main = "Residuals vs. Fitted", xlab = "Fitted", ylab = "Residuals", type = "o", col = "blue")
 }

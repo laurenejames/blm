@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(blm)
 ```
 
-## `blm` package description
+# `blm` package description
+### Lauren James
 
 This package constructs a Bayesian Linear Model, which is a statistical linear regression approach that uses Bayesian inferences. It has a similar structure and appearance as the `lm` and `glm` interfaces. The Bayesian Linear Model takes on the structure y ~ x (+ other predictors) and provides a training set from which to predict response variables from real data.
 
